@@ -11,15 +11,20 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+	<script src="js\jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/server.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/114mano.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/114mano.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/72mano.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/57mano.png">
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -31,14 +36,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand animated fadeInDown"" href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li class="active"><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html"><i class="glyphicon glyphicon-home">&nbsp;Home</i></a></li>
+                    <li><a href="about-us.html"><i class="glyphicon glyphicon-user">&nbsp;AboutUs</i></a></li>
+                    <li class="active"><a href="services.html"><i class="glyphicon glyphicon-tasks">&nbsp;Services</i></a></li>
+                    <li><a href="workshops.html"><i class="glyphicon glyphicon-globe">&nbsp;Workshops</i></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -53,8 +58,8 @@
                             <li><a href="terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
+                    
+                    <li><a href="contact-us.html"><i class="glyphicon glyphicon-send">&nbsp;Contact</i></a></li>
                 </ul>
             </div>
         </div>
@@ -66,7 +71,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Services</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                    
                 </div>
                
             </div>
@@ -80,8 +85,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="center gap">
-                        <h2>What we do</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<section class="wow slideInLeft">
+                        <h2 class="animated bounceInLeft">What we do</h2></section>
+                        <section class="wow slideInLeft"><p class="animated bounceInLeft">We are handling the projects and cources in various models</p></section>
                     </div>                
                 </div>
             </div>
@@ -93,8 +99,8 @@
 
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Softwere Development</h3>
-                            <p>HSR has offered outsourced software development to help improve innovation process for diverse businesses.</p>
+                            <section class="wow slideInLeft"><h3 class="media-heading animated bounceInLeft">Softwere Development</h3></section>
+                            <section class="wow slideInLeft"><p class="animated bounceInLeft">HSR has offered outsourced software development to help improve innovation process for diverse businesses.</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -105,8 +111,8 @@
                             <i class="icon-android icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Android Development</h3>
-                            <p>We Provid consulting and mobile app development services for different platforms and various industries.</p>
+                            <section class="wow slideInRight"><h3 class="media-heading animated flash">Android Development</h3></section>
+                            <section class="wow slideInRight"><p class="animated flash">We Provid consulting and mobile app development services for different platforms and various industries.</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -114,11 +120,11 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-apple icon-md"></i>
+                            <i class="icon-html5 icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Website Development</h3>
-                            <p>We Provid consulting and Website development services for different platforms and various industries.</p>
+                            <section class="wow slideInLeft"><h3 class="media-heading animated bounceInRight">Website Development</h3></section>
+                            <section class="wow slideInLeft"><p class="animated bounceInRight">We Provid consulting and Website development services for different platforms and various industries.</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -129,22 +135,22 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-linux icon-md"></i>
+                            <i class="icon-globe icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Data Analysis</h3>
-                            <p>We cover our clients’ needs with full-cycle analytics services, big data consulting, business intelligence, advanced analytics and data visualization</p>
+                            <section class="wow slideInRight"><h3 class="media-heading animated bounceInLeft">Data Analysis</h3></section>
+                            <section class="wow slideInRight"><p class="animated bounceInLeft">We cover our clients needs with full-cycle analytics services, big data consulting, business intelligence, advanced analytics and data visualization</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-dribbble icon-md"></i>
+                            <i class="icon-facetime-video icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Graphic Design</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                           <section class="wow slideInLeft"><h3 class="media-heading animated flash">Graphic Design</h3></section>
+                            <section class="wow slideInLeft"><p class="animated flash">we try to absorb the client information and requirement to start work on the design a fresh and relevant that provides unique identity.</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -154,8 +160,8 @@
                             <i class="icon-google-plus icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">SEO Services</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <section class="wow slideInRight"><h3 class="media-heading animated bounceInRight">SEO Services</h3></section>
+                            <section class="wow slideInRight"><p class="animated bounceInRight">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p></section>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -164,20 +170,23 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center">
-                        <h2>What our clients say</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<section class="wow fadeInDown">
+                        <h2>What we think about our clients</h2></section>
+                        <section class="wow slideInRight"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></section>
                     </div>
                     <div class="gap"></div>
                     <div class="row">
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+							<section class="wow slideInLeft">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></section>
                                 <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
                             </blockquote>
                         </div>
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+							<section class="wow slideInRight">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></section>
                                 <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
                             </blockquote>
                         </div>
@@ -188,11 +197,11 @@
     </section><!--/#services-->
 
 
-    <footer id="footer" class="midnight-blue">
+  <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; 2013 <a target="_blank"  title="Vinayak InfoTech">Vinayak Infotech</a>. All Rights Reserved.
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
