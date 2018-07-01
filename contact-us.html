@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Contact Us | Flat Theme</title>
+    <title>Contact | HSR</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+	<script src="js\jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/server.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/114mano.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/114mano.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/72mano.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/57mano.png">
 </head><!--/head-->
+
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
         <div class="container">
@@ -31,175 +37,106 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-            </div>
+                <a class="navbar-brand animated fadeInDown" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                       </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
-                            <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li class="active"><a href="contact-us.html">Contact</a></li>
+                    <li><a href="index.html"><i class="glyphicon glyphicon-home">&nbsp;Home</i></a></li>
+                    <li> <a href="about-us.html"><i class="glyphicon glyphicon-user">&nbsp;AboutUs</i></a></li>
+                    <li><a href="services.html"><i class="glyphicon glyphicon-tasks">&nbsp;Services</i></a></li>
+                    <li><a href="workshops.html"><i class="glyphicon glyphicon-globe">&nbsp;Workshops</i></a></li>
+                   
+                    
+                    <li class="active"><a href="contact-us.html"><i class="glyphicon glyphicon-send">&nbsp;Contact</i></a></li>
                 </ul>
             </div>
         </div>
     </header><!--/header-->
 
-    <section id="title" class="emerald">
+<div  style="min-height:2px;">
+<section id="title" class="emerald">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
+				<div class="text animated bounce ">
                     <h1>Contact Us</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                    <ul class="breadcrumb pull-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Contact Us</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section><!--/#title-->    
+               </div>
+</div>
+	</div><!--/#title-->
 
     <section id="contact-page" class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <h4>Contact Form</h4>
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                
                     <div class="row">
-                        <div class="col-sm-5">
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="First Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" required="required" placeholder="Email address">
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-                            </div>
+					<form action="https://docs.google.com/forms/d/e/1FAIpQLSed-1ZiQ1PjFje29plhVrQCi719AMhrS9Ljtd2Dpabjt5HHlw/formResponse" method="post" id="application-form" target="_blank">
+					
+<form class="contact100-form validate-form">
+                       
+                        
+                        <div class="col-sm-7 ">
+						 <div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+						<textarea name="entry.523911156"   id="entry_523911156" dir="auto" aria-label="Tell Us" name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>						
                         </div>
-                        <div class="col-sm-7">
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                         </div>
+						<div class="col-sm-5">
+                            <div class="form-group">
+							 <div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input type="text" class="form-control" required="required" placeholder="First Name" name="entry.632395150" value=""  id="entry_632395150" dir="auto"  title="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+							 <div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input type="text"class="form-control" required="required" placeholder="Last Name"  name="entry.1999554383" value=""  id="entry_1999554383" dir="auto" aria-label="Last Name  " title="">
+                              </div>  
+                            </div>
+                            <div class="form-group">
+							 <div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+							<input type="text" class="form-control" required="required" placeholder="Email address"  name="entry.968106902" value="" class="form-control email" id="entry_968106902" dir="auto" aria-label="G mail  " data-validate = "Email is required: ex@abc.xyz" title="">
+                              </div>  
+                            </div>
+                            <div class="form-group">
+							<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-hand-right"></i></span>
+							<button  input type="submit" class="btn btn-success btn-md btn-block" name="submit" value="Submit Test Form" id="submit" >Send Message</button>
+							</div>
+                                
+                            </div>
                     </div>
                 </form>
             </div><!--/.col-sm-8-->
-            <div class="col-sm-4">
+            <div class="col-sm-7">
                 <h4>Our Location</h4>
-                <iframe width="100%" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=dhaka+ban&amp;sll=40.714353,-74.005973&amp;sspn=0.836898,1.815491&amp;ie=UTF8&amp;hq=&amp;hnear=Dhaka+Division,+Bangladesh&amp;t=m&amp;ll=24.542126,90.293884&amp;spn=0.124922,0.411301&amp;z=8&amp;output=embed"></iframe>
-            </div><!--/.col-sm-4-->
+				<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7782.396867721732!2d77.80442677219902!3d12.765621727637106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae711a0e8e5da3%3A0x77f9c74745266cf9!2sCJ-IT(info+Thamilan!5e0!3m2!1sen!2sin!4v1530452149738" width="100%" height="215" frameborder="0" scrolling="no" marginheight="0" style="border:0" allowfullscreen></iframe>
+               
+            </div>
+			<div class="col-sm-5"><br>
+			<h1><font face="GE ElegantScript ">We always think about our clients and Students to give their needs and we need your concern to change our developement and teaching</font></h1>
+			<button class="btn btn-success btn-md btn-block">Mobile No : 8903567353</button>
+			
+			</div>
+			<!--/.col-sm-4-->
         </div>
     </section><!--/#contact-page-->
+	</body>
 
-    <section id="bottom" class="wet-asphalt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
-                    <div>
-                        <ul class="arrow">
-                            <li><a href="#">The Company</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Conatct Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Copyright</a></li>
-                        </ul>
-                    </div>
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Latest Blog</h4>
-                    <div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
-                            </div>
-                        </div>
-                    </div>  
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Address</h4>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
-                </div> <!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
+	  <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                    &copy; 2013 <a target="_blank"  title="Vinayak InfoTech">Vinayak Infotech</a>. All Rights Reserved.   
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
+					Mobile No : 8903567353
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Faq</a></li>
@@ -210,10 +147,4 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
 </html>
